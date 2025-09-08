@@ -11,35 +11,30 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+{% for education in site.data.cv.education %}
+* {{ education.area }}, {{ education.institution }}{% if education.endDate %} ({{ education.endDate }}){% endif %}
+{% if education.courses %}
+  * Courses: {{ education.courses | join: ", " }}
+{% endif %}
+{% endfor %}
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+{% for work in site.data.cv.work %}
+* {{ work.startDate | date: "%B %Y" }}{% if work.endDate %} - {{ work.endDate | date: "%B %Y" }}{% else %} - Present{% endif %}: {{ work.position }}
+  * {{ work.company }}
+  {% if work.highlights %}
+  {% for highlight in work.highlights %}
+  * {{ highlight }}
+  {% endfor %}
+  {% endif %}
+{% endfor %}
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+{% for skill in site.data.cv.skills %}
+* {{ skill.name }}: {{ skill.keywords | join: ", " }}
+{% endfor %}
 
 Publications
 ======
