@@ -30,37 +30,102 @@
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "Amazon",
+      "position": "Software Engineer Intern",
+      "website": "",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-01",
+      "summary": "",
+      "highlights": [
+        "Developed key features for Amazon B2B in AWS platform to automate event-driven applications using EventBridge",
+        "Implemented enhancements in the Visibility Service using Java, JavaScript and TypeScript, improving real-time tracking and monitoring of important business transactions across the platform",
+        "Conducted integration tests for all Outbound services and events, ensuring smooth and error-free deployment",
+        "Designed and tested dashboards using CloudWatch to monitor service performance metrics"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "company": "ByteDance Ltd.",
+      "position": "Data Scientist",
+      "website": "",
+      "startDate": "2021-02-01",
+      "endDate": "2022-08-01",
+      "summary": "",
+      "highlights": [
+        "Collaborated with cross-function team to deploy dynamic subscription tool to improve customer experience in platform",
+        "Verified product feasibility and deployed XGBoost model to select the important indicators for customers to help design product features",
+        "Applied interrupted time series to estimate the potential revenue impact, and evaluate the risk of restricting creator's quotes strategy in advance",
+        "Conducted attribution analysis to evaluate marketing campaign performance which provided powerful evidence to spur on product marketing"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "Blingby",
+      "position": "Data Scientist",
+      "website": "",
+      "startDate": "2020-08-01",
+      "endDate": "2020-12-01",
+      "summary": "",
+      "highlights": [
+        "Built data ETL pipelines through Apache Spark to transform raw data into features by combining business sense and statistical knowledge",
+        "Developed, maintained web-based dashboards with Tableau to update daily data analysis report, which increased 20% daily work efficiency"
+      ]
+    },
+    {
+      "company": "TouchSuite",
+      "position": "Machine Learning Intern",
+      "website": "",
+      "startDate": "2020-06-01",
+      "endDate": "2020-08-01",
+      "summary": "",
+      "highlights": [
+        "Queried and cleaned terabyte-sized order data from Azure SQL using pyodbc",
+        "Conducted online analytical processing (OLAP) to display critical sales performance from different dimensions",
+        "Developed item-based approaches to handle cold-start problems and tuned the model hyper-parameters through SparkML cross-evaluation toolbox which reduced root mean square errors by 10%"
+      ]
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "University of California, Los Angeles",
+      "area": "Doctor of Philosophy (PhD) in Biostatistics",
+      "studyType": "PhD",
+      "startDate": "",
+      "endDate": "",
+      "gpa": null,
+      "courses": ["Uncertainty in LLMs", "Agent-based AI"]
+    },
+    {
+      "institution": "Northeastern University",
+      "area": "Master of Science in Computer Science",
+      "studyType": "MS",
+      "startDate": "",
+      "endDate": "",
+      "gpa": null,
+      "courses": ["Algorithm", "Distributed Database"]
+    },
+    {
+      "institution": "University of North Carolina at Chapel Hill",
+      "area": "Master of Science in Statistics and Operations Research",
+      "studyType": "MS",
+      "startDate": "",
+      "endDate": "",
+      "gpa": null,
+      "courses": ["Applied Statistics", "Machine Learning", "Time Series Forecasting"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": ["Python", "R", "Java", "JavaScript", "SQL"]
+    },
+    {
+      "name": "Tools and Platforms",
+      "level": "",
+      "keywords": ["MySQL", "Tableau", "AWS", "Spark"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
