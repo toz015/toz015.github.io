@@ -22,7 +22,7 @@ repository               : "toz015/toz015.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.JPG"
   name             : "Tong Zhu"
   pronouns         : # example: "she/her"  
   bio              : "A PhD Candidate in Biostatistics"
