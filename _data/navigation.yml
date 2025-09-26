@@ -26,8 +26,8 @@ main:
   - title: "CV"
     url: /cv/
     
-  # - title: "CV"
-  #   url: /cv-json/
+  - title: "Resume"
+    url: /files/Tong_Resume_phd.pdf
     
   # - title: "Guide"
   #   url: /markdown/
