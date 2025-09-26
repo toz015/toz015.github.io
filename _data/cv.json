@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Tong Zhu",
+    "email": "toz015@ucla.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://toz015.github.io",
+    "summary": "Currently employed at UCLA. A PhD Candidate in Biostatistics.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Fremont, CA, USA",
       "countryCode": "US",
       "region": ""
     },
@@ -26,7 +26,7 @@
       {
         "network": "GitHub",
         "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/toz015"
       }
     ]
   },
@@ -127,7 +127,7 @@
     }
   ],
   "languages": [],
-  "interests": [],
+  "interests": ["Badminton", "Hiking", "Traveling"],
   "references": [],
   "publications": [
     {
@@ -192,16 +192,16 @@
   "teaching": [
     {
       "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
+      "institution": "University of California, Los Angeles, Biostatistics Department",
+      "date": "2025-09-22",
+      "role": "Biostat 203A",
       "description": ""
     },
     {
       "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "institution": "University of California, Los Angeles, Biostatistics Department",
+      "date": "2025-09-22",
+      "role": "Biostat 203A",
       "description": ""
     }
   ],
