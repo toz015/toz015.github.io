@@ -39,9 +39,17 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% for publication in site.data.cv.publications %}
+* **{{ publication.name }}**  
+  * {{ publication.publisher }}, {{ publication.releaseDate | date: "%B %Y" }}
+  {% if publication.website %}
+  * [Link]({{ publication.website }})
+  {% endif %}
+  {% if publication.summary %}
+  * {{ publication.summary }}
+  {% endif %}
+
+{% endfor %}
   
 <!-- Talks
 ======
