@@ -43,7 +43,7 @@ Publications
 * **{{ publication.name }}**  
   * {{ publication.publisher }}, {{ publication.releaseDate | date: "%B %Y" }}
   {% if publication.website %}
-  * [Link]({{ publication.website }})
+  * [Paper Link]({{ publication.website }})
   {% endif %}
   {% if publication.summary %}
   * {{ publication.summary }}
