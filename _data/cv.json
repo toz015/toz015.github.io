@@ -90,7 +90,7 @@
       "institution": "University of California, Los Angeles",
       "area": "Doctor of Philosophy (PhD) in Biostatistics",
       "studyType": "PhD",
-      "startDate": "",
+      "startDate": "2024-09-23",
       "endDate": "",
       "gpa": null,
       "courses": ["Uncertainty in LLMs", "Agent-based AI"]
@@ -99,17 +99,17 @@
       "institution": "Northeastern University",
       "area": "Master of Science in Computer Science",
       "studyType": "MS",
-      "startDate": "",
-      "endDate": "",
-      "gpa": null,
+      "startDate": "2023-01-01",
+      "endDate": "2024-05-01",
+      "gpa": 4.0,
       "courses": ["Algorithm", "Distributed Database"]
     },
     {
       "institution": "University of North Carolina at Chapel Hill",
       "area": "Master of Science in Statistics and Operations Research",
       "studyType": "MS",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2018-08-01",
+      "endDate": "2020-06-01",
       "gpa": null,
       "courses": ["Applied Statistics", "Machine Learning", "Time Series Forecasting"]
     }
@@ -132,77 +132,26 @@
   "publications": [
     {
       "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "publisher": "NeurIPS 2025",
+      "releaseDate": "2025-09-25",
+      "website": "https://arxiv.org/pdf/2505.13636",
+      "summary": "This paper introduces Peer Elicitation Games (PEG), a training-free, game-theoretic framework for aligning LLMs."
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
+      "course": "Biostat 203A",
       "institution": "University of California, Los Angeles, Biostatistics Department",
       "date": "2025-09-22",
-      "role": "Biostat 203A",
-      "description": ""
+      "role": "TA",
+      "description": "Introduction to Data Management and Statistical Computing"
     },
     {
-      "course": "Teaching experience 2",
+      "course": "Biostat 201",
       "institution": "University of California, Los Angeles, Biostatistics Department",
       "date": "2025-09-22",
-      "role": "Biostat 203A",
-      "description": ""
+      "role": "TA",
+      "description": "Topics in Applied Regression"
     }
   ],
   "portfolio": [
