@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# Tong Zhu
 **PhD Candidate in Biostatistics at UCLA**
 
 Welcome to my personal academic website! I am a PhD candidate in Biostatistics at the University of California, Los Angeles, with research interests in uncertainty quantification in Large Language Models and agent-based AI systems.
