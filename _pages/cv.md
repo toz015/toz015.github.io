@@ -12,7 +12,8 @@ redirect_from:
 Education
 ======
 {% for education in site.data.cv.education %}
-* {{ education.area }}, {{ education.institution }}{% if education.endDate %} ({{ education.endDate }}){% endif %}
+* **{{ education.area }}** - {{ education.institution }}
+  * {{ education.startDate | date: "%B %Y" }}{% if education.endDate and education.endDate != "current" %} - {{ education.endDate | date: "%B %Y" }}{% elsif education.endDate == "current" %} - Present{% endif %}
 {% if education.courses %}
   * Courses: {{ education.courses | join: ", " }}
 {% endif %}
@@ -21,15 +22,15 @@ Education
 Work experience
 ======
 {% for work in site.data.cv.work %}
-* {{ work.startDate | date: "%B %Y" }}{% if work.endDate %} - {{ work.endDate | date: "%B %Y" }}{% else %} - Present{% endif %}: {{ work.position }}
-  * {{ work.company }}
-  {% if work.highlights %}
-  {% for highlight in work.highlights %}
-  * {{ highlight }}
-  {% endfor %}
-  {% endif %}
+**{{ work.position }}** at **{{ work.company }}**  
+{{ work.startDate | date: "%B %Y" }}{% if work.endDate %} - {{ work.endDate | date: "%B %Y" }}{% else %} - Present{% endif %}
+{% if work.highlights %}
+{% for highlight in work.highlights %}
+* {{ highlight }}
 {% endfor %}
+{% endif %}
 
+{% endfor %}
 Skills
 ======
 {% for skill in site.data.cv.skills %}
@@ -42,18 +43,14 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
